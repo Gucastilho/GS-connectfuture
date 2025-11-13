@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#FDFDFF ;
+
+    margin-top: 20px;
+}
+
+header nav li{
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+header  nav li ul{
+    color: #6B7280;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+header  nav li ul:hover{
+    color: #31343a;
+}
+
+.div-login{
+    display: flex;
+    gap: 30px ;
+}
+
+.login{
+    background-color: #FDFDFF;
+    color: #3B82F6;
+    border: none;
+
+    font-size:20px;
+
+    cursor: pointer;
+   
+}
+
+.sign-up{
+    background-color: #3B82F6 ;
+    color: #FDFDFF;
+    width: 110px;
+    height: 45px;
+    border-radius: 10px;
+    border-style: none;
+
+    font-size:20px;
+
+     cursor: pointer;
+
+}
+
+.login:hover{
+    color: #1357c4;
+}
+
+.sign-up:hover{
+    background-color: #1357c4;
+}
+
