@@ -304,4 +304,64 @@ header  nav li ul:hover{
    
 }
 
+.motivational-text{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color:#10B981 ;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
 
+.motivational-text img{
+    background-color: #40C79A;
+    height: 72px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+.motivational-text p{
+    font-size: 48px;
+    color: #FFF;
+}
+
+.about-connectfuture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about-connectfuture div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+    .about-connectfuture div h2{
+        color: #3D3D3D;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+.about-connectfuture div p{
+    text-align: center;
+    width: 650px;
+    height: 150px;
+    margin-top: 30px;
+
+    color: #6B7280;
+    font-size: 20px;
+}
+
+.grid-about{
+    
+}
