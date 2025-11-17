@@ -337,22 +337,27 @@ header  nav li ul:hover{
 
 }
 
-.about-connectfuture div{
+.full{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+.about-connectfuture .title-about{
     margin-top: 100px;
     margin-bottom: 50px;
     justify-content: center;
     align-items: center;
-}
+}   
 
-    .about-connectfuture div h2{
+.about-connectfuture .title-about h2{
         color: #3D3D3D;
         font-size: 20px;
         font-weight: normal;
-    }
+}
 
-.about-connectfuture div p{
+.about-connectfuture .title-about p{
     text-align: center;
     width: 650px;
     height: 150px;
@@ -362,6 +367,40 @@ header  nav li ul:hover{
     font-size: 20px;
 }
 
+.title-about{
+    display: flex !important;
+    flex-direction: column !important;
+}
+
 .grid-about{
-    
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.grid-about .about{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.grid-about .about span{
+    font-size: 20px;
+    color: #000;
+}
+
+.grid-about img{
+    background-color:#3B82F6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 85px;
+}
+
+.grid-about p{
+    color: #6B7280;
+    font-size: 20px;
+    text-align: center;
 }
