@@ -339,8 +339,9 @@ header  nav li ul:hover{
 
 .full{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 50px;
+    gap: 100px;
 }
 
 
