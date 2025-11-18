@@ -449,7 +449,7 @@ input[type="radio"] {
     text-align: center;
 }
 
-button {
+.slide  button {
     background: #4CAF50;
     color: white;
     border: none;
@@ -458,7 +458,7 @@ button {
     border-radius: 8px;
     cursor: pointer;
 }
-button:hover {
+.slide button:hover {
     background: #45a049;
 }
 
