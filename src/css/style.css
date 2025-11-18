@@ -17,7 +17,7 @@ header{
     gap: 150px;
 }
 
-header nav li{
+header nav ul{
     display: flex;
     gap: 30px;
 }
@@ -25,17 +25,18 @@ header nav li{
 header nav ul{
     display: flex;
     flex-direction: row;
+    list-style: none;
     
 
 }
 
-header  nav li ul{
+header  nav ul li{
     color: #6B7280;
     font-size: 20px;
     cursor: pointer;
 }
 
-header  nav li ul:hover{
+header  nav ul li:hover{
     color: #31343a;
 }
 
@@ -406,6 +407,98 @@ header  nav li ul:hover{
     text-align: center;
 }
 
-.teste{
+footer{
+    margin-top: 130px;
     display: flex;
+    flex-direction: column;
+
+    background-color: #191919;
+    height: 541px;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.informations{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+
+}
+
+.div-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.div-logo p{
+    color: #3B82F6;
+    font-size: 25px;
+    width: 430px;
+}
+
+.icons-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+
+.icons-footer img:hover{
+   transform: scale(1.5);
+   
+}
+
+.icons-footer img{
+    cursor: pointer;
+    transition: all ease-in-out 1s;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title-company{
+    color: #3B82F6;
+    font-size:20px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+a{
+    color: #FDFDFF;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+
+     transition: all ease-in-out 0.5s;
+
+   
+}
+
+a:hover{
+    color: #9fa7f3;
+
+}
+
+.section-company{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.span-contact{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.span-contact img{
+    width: 23px;
+    height: 25px;
 }
