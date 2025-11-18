@@ -1,0 +1,38 @@
+header{
+    --startY: -100%;
+    animation: move 1.5s;
+}
+
+.sign-up{
+    transition: all ease-in-out 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    
+}
+
+.card{
+    transition: all 1s ease-in-out;
+}
+
+
+.footer-card button{
+    transition: all 0.5s ease-in-out;
+}
+
+.skills span{
+    transition: all 0.5s ease-in-out;
+}
+
+.skills span:hover{
+    background: linear-gradient(to bottom,#3B82F6 0%,#022c6e 100%);
+}
+
+
+@keyframes move{
+    from{
+        transform: translateY(var(--startY));
+    }
+}
+
